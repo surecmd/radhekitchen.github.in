@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c1846cfb1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="flickity.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Radhe kitchen</title>
+</head>
+<body>
+     <div class="header">
+        <div class="block-inline"> <img src="IMAGE/Logo.png" alt=""></div>
+       
+        <div class="block-inline" id="gif">
+           <h1> Radhe Kitchen</h1>
+        </div>
+        <div  id="color-switcher">
+            <span class="btn" id="image" onclick="ChangeBg('#ffffff')"></span>
+            <span class="btn" id="Dark" onclick="ChangeBg('#8C8C8C')"></span>
+            <span class="btn" id="white" onclick="ChangeBg('#90CFC0')"></span>
+        </div>
+    </div>
+           <!--      Navigation     -->
+    <nav class="sticky" id="sticky">
+        <ul>
+          <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-regular fa-circle-xmark"></i></a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="#" onclick="Message()">Birthday Cake</a></li>
+            <li><a href="#" onclick="Message()">Pastries</a></li>
+            <li><a href="#" onclick="Message()">Ice Cream</a></li>
+            <li><a href="contactUs.html" >Contact Us</a></li>
+            <li><a href="aboutUs.html" >About</a></li>
+           
+             <button id="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"> Login</button>
+        
+        </ul>
+          <!--   Login form           -->
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="IMAGE/img_avatar2.jpg" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input class="input" type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input class="input" type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button class="button" type="submit">Login</button>
+                <label>
+                  <input class="input" type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>     
+    </nav>
+    <!-- mobile button-->
+    <div id="mobile-bar" onclick="openMenu()">
+      <i class="fa-solid fa-bars"></i> &nbsp; Menu
+    </div> 
+
+
+    <section class="section">
+        <h1> <span>Birthday cake</span> </h1>
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+          <div class="carousel-cell">
+            <div class="img-2"><img class="imk2" src="IMAGE/image1.jpg" alt=""></div>
+            <div class="cart"><h3>Add Cart</h3></div>
+          </div>
+          <div class="carousel-cell">
+            <div class="img-2"><img class="imk2" src="IMAGE/image2.jpg" alt=""></div>
+           <div class="cart"><h3>Add Cart</h3></div>
+          </div>
+          <div class="carousel-cell">
+            <div class="img-2"><img class="imk2" src="IMAGE/image3.jpg" alt=""></div>
+            <div class="cart"><h3>Add Cart</h3></div>
+          </div>
+          <div class="carousel-cell">
+            <div class="img-2"><img class="imk2" src="IMAGE/image4.jpg" alt=""></div>
+            <div class="cart"><h3>Add Cart</h3></div>
+          </div>
+        
+        </div>
+        
+            
+    </section >
+
+    <section class="section">
+        <h1> <span>Party Cake</span> </h1>
+        <div class="carousel" data-flickity='{ "wrapAround": true}'>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake1.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div> 
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake2.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div> 
+              </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake3.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div> 
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake4.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div> 
+            </div>
+            
+          </div>
+        
+    </section >
+
+    <section class="section">
+        <h1> <span> Aniversary Cake </span></h1>
+        <div class="carousel" data-flickity='{ "wrapAround": true}'>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/acake1.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div> 
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/acake2.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/acake3.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/acake1.jpg" alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+          </div>
+    
+    </section>
+
+
+    <section class="section">
+        <h1><span> Pastries Cake </span></h1>
+        <div class="carousel" data-flickity='{ "wrapAround": true}'>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake1.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake2.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake3.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/pcake4.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+          </div>
+        
+    </section>
+
+
+    <section class="section">
+        <h1><span> Ice Cream</span></h1>
+        <div class="carousel" data-flickity='{"wrapAround": true}'>
+            <div class="carousel-cell"> 
+              <div class="img-2"><img class="imk2" src="IMAGE/icream1.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell">
+              <div class="img-2"><img class="imk2" src="IMAGE/icream2.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell"> 
+              <div class="img-2"><img class="imk2" src="IMAGE/icream3.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+            <div class="carousel-cell"> 
+              <div class="img-2"><img class="imk2" src="IMAGE/icream4.jpg"  alt=""></div>
+              <div class="cart"><h3>Add Cart</h3></div>
+            </div>
+          </div>
+       
+        
+       
+       
+    </section>
+
+    <div class="form">
+        <form action="#">
+            <h1>Enquiry Details</h1>
+                <label for="">First Name:- </label> 
+                <input class="box" type="text" placeholder="First Name" > <br>
+                <label for="">Last Name:-</label> 
+                <input class="box" type="text" name="" id="" placeholder="Last Name"> <br>
+            
+            <label for="">Contact Number:-</label>
+             <input class="box1" type="tel" name="" id="" placeholder="+91-0123456789"> <br>
+            <label for="">Email Address:-</label>
+             <input class="box2" type="email" name="" id="" placeholder="example@gamil.com"> <br>
+            <label for="">Comments Box:-</label>
+             <textarea name="" id="" cols="30" rows="10" style="background-color: white ;"></textarea>
+
+            <br> <br> <br>
+            <button class="button2">submit</button>
+        </form>
+    </div>
+    
+    <div>
+        <h1 class="founder1"><span> Our Founder </span></h1>
+        <img class="founder" src="IMAGE/IMG_20190921_185618_2.jpg" alt="">
+      <h2>Surendra Kumar  <br> <br><a id="social" target="_blank" href="https://www.linkedin.com/in/surendra-kumar-9060ba158/"><span> linkedIn</span></a></h2>
+      
+    </div>
+
+<footer>
+   <a href="#">FAQ</a> 
+   <a href="contactUs.html">Contact Us</a>
+   <a href="#">Terms and Conditions</a>
+   <a href="#">Privacy Policy</a>
+   <a href="#">Refund Policy</a>
+   <a href="#">&copy;2022 | Radhe kitchen</a>
+</footer>
+<script src="flickity.pkgd.min.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>

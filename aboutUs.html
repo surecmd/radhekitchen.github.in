@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c1846cfb1f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="flickity.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Radhe kitchen</title>
+        <style>
+            div h2 span{
+                background-color: rgba(245, 245, 31, 0.404);
+                 padding: 10px 10px;
+                 border-radius: 20px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="header">
+        <div class="block-inline"> <img src="IMAGE/Logo.png" alt=""></div>
+       
+        <div class="block-inline" id="gif">
+           <h1> Radhe Kitchen</h1>
+        </div>
+        <div  id="color-switcher">
+            <span class="btn" id="image" onclick="ChangeBg('#ffffff')"></span>
+            <span class="btn" id="Dark" onclick="ChangeBg('#8C8C8C')"></span>
+            <span class="btn" id="white" onclick="ChangeBg('#90CFC0')"></span>
+        </div>
+    </div>
+           <!--      Navigation     -->
+    <nav class="sticky" id="sticky">
+        <ul>
+          <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-regular fa-circle-xmark"></i></a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="#" onclick="Message()">Birthday Cake</a></li>
+            <li><a href="#" onclick="Message()">Pastries</a></li>
+            <li><a href="#" onclick="Message()">Ice Cream</a></li>
+            <li><a href="contactUs.html" >Contact Us</a></li>
+            <li><a href="aboutUs.html" >About</a></li>
+           
+             <button id="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"> Login</button>
+        
+        </ul>
+          <!--   Login form           -->
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="IMAGE/img_avatar2.jpg" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input class="input" type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input class="input" type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button class="button" type="submit">Login</button>
+                <label>
+                  <input class="input" type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>     
+    </nav>
+    <!-- mobile button-->
+    <div id="mobile-bar" onclick="openMenu()">
+      <i class="fa-solid fa-bars"></i> &nbsp; Menu
+    </div>
+
+    <br>
+
+    <div >
+        <h2><span>About Us</span> </h2>
+        <br>
+        <br>
+
+        <p >style=Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi error mollitia omnis, exercitationem asperiores amet quidem dicta voluptatibus perspiciatis laudantium voluptatem ipsa reprehenderit corporis eaque veritatis consectetur qui rerum placeat, eum officiis, incidunt molestiae! Nisi assumenda tempora, nemo adipisci, doloribus, expedita vero voluptatibus libero illum explicabo quaerat cum delectus recusandae aliquid ea minus cumque fugiat obcaecati quas unde fugit in et. Voluptas expedita mollitia impedit, iste dolorum sint sapiente distinctio. Maxime, reprehenderit commodi? Quasi, maxime cum earum, totam quas est dignissimos dicta vel nisi quos, odio esse amet quae. Delectus quia natus nesciunt dolor quibusdam autem ex soluta assumenda incidunt. Soluta delectus iure voluptatem perferendis ad laboriosam. Tempore quae rerum amet at iure, reiciendis libero, vitae a voluptates aut qui consequuntur. Vel, porro vero? Dolores impedit iure laborum possimus quod cumque consequuntur laudantium dolorem. Doloribus, fuga quod eos, nulla magnam fugit asperiores vitae velit tempore dolorem ab necessitatibus, et sint. Quasi dolor fuga debitis iure voluptatem magnam quibusdam, eius tempora reprehenderit inventore blanditiis ducimus ut iste in sed perspiciatis mollitia doloremque iusto amet cum maiores! Alias, eligendi? Autem rerum sunt illum voluptates similique natus molestiae, laborum a aliquam. Fugiat exercitationem accusamus, modi molestias voluptates sequi qui odit veniam nemo aut, aliquid beatae sunt ab quibusdam a earum eius molestiae at tenetur omnis saepe voluptatibus, reiciendis libero! Doloremque quo ut laboriosam quis illo deleniti tempora quas a quidem, esse dolorem tempore at beatae molestiae, velit eveniet recusandae. Quam veritatis commodi debitis assumenda recusandae quod nostrum unde, deleniti sapiente? Nesciunt placeat, error facilis fugit vel non, ea laudantium nam aliquam praesentium corrupti voluptate culpa asperiores? Aut quaerat in ex impedit voluptas optio beatae officia eius molestias atque illo quae voluptatibus vitae quia unde, at quibusdam explicabo doloribus ipsam laborum nesciunt, perferendis exercitationem veritatis? Quasi quo odio, aliquid iusto quia iure consectetur eaque! Atque molestiae hic quam officiis modi repellendus cum iure adipisci quas ea expedita sequi fugiat, assumenda corrupti et consequatur, mollitia magnam blanditiis ducimus! Neque, at, mollitia reiciendis odio expedita velit ipsum asperiores optio dolorem distinctio dolor delectus saepe fuga, fugiat quo repellat quidem hic incidunt omnis. Reprehenderit delectus repellendus nulla quos illo dolorem dignissimos! Quos doloremque hic dignissimos tempore illo veniam consectetur debitis officiis similique dolor numquam et, porro voluptates autem molestias temporibus ullam dolorem quaerat vero omnis optio. Quibusdam inventore nisi id ullam. Dolores nam dolor vitae labore vero obcaecati, atque, magni tempore exercitationem consequuntur natus harum provident quasi optio aliquam blanditiis inventore corporis placeat excepturi laboriosam? A quos quia alias laborum tempora. Possimus praesentium quod debitis, delectus officiis adipisci quas, modi harum esse beatae at cum cupiditate vitae facere nesciunt velit. Enim eius suscipit a molestias tenetur assumenda, praesentium dolorum non culpa qui doloribus repellat inventore voluptatibus? Similique laboriosam non debitis labore veritatis reiciendis officiis, obcaecati quaerat tenetur. Expedita, in voluptas. Consectetur repellat quisquam eos assumenda explicabo doloremque cupiditate nesciunt at quia nemo ea sunt sed corrupti, placeat dignissimos commodi perspiciatis reprehenderit aspernatur quae ipsam unde quibusdam eum aliquam necessitatibus. Doloribus in sunt maiores, cumque impedit quos?</p>
+    </div>
+
+
+    <footer>
+        <a href="#">FAQ</a> 
+        <a href="contactUs.html">Contact Us</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy;2022 | Radhe kitchen</a>
+     </footer>
+     <script src="flickity.pkgd.min.js"></script>
+     <script src="nav.js"></script>
+</body>
+</html>

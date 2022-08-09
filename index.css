@@ -1,0 +1,722 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   text-decoration: none;
+}
+html{
+    background-image: url(IMAGE/5437982.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.header{
+    background-color: #141414;
+    border-bottom: 1px solid;
+    border-color: rgb(214, 163, 97);
+    overflow: auto;
+    
+}
+.block-inline{
+    display: inline;
+}
+.header img{
+  float: left;
+  margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    
+}
+#gif{
+  padding: 25px 0 0 0;
+  margin-left: 370px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New';
+    font-style: italic;
+    float: left;
+    
+}
+#color-switcher{
+      padding: 45px 0 0 0;
+      margin-right: 30px;
+      float: right;
+      cursor: pointer;
+}
+.btn{
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     border: 1px solid white;
+}
+#image{
+    background-image: url(IMAGE/5437982.jpg);
+}
+#Dark{
+    background-color: rgb(88, 75, 75);
+}
+        
+#white{
+    background-color: #3eafaa;
+}
+nav{
+    background-color: rgb(83, 75, 75);
+   font-size: 20px;
+   height: 50px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+/* .sticky{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 9999;
+} */
+
+ nav ul{
+overflow: auto; 
+padding-top: 10px;
+padding-bottom: 0px;
+
+
+}
+ul li{
+    display: inline; 
+    margin-top: 10px;
+    
+   
+
+}
+li a{
+    color: aliceblue;
+      text-decoration: none;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  ul li:hover{
+    background-color: rgb(105, 126, 126);
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+
+  }
+#login{
+    float: right;
+    background-color: coral;
+    font-weight: bold;
+    margin-right: 100px;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    border: 1px;
+} 
+#login:hover{
+    background-color: rgb(101, 109, 109);
+}
+
+section{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 40px;
+    color: darkmagenta;
+}
+.section h1 span{
+    background-color: rgba(245, 245, 31, 0.404);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+div h1 span{
+    background-color: rgba(37, 114, 145, 0.404);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+
+
+         /* carousel style */
+
+.imk2{
+  clip-path: inset(13% 6% 16% 6% round 5% 5% 5% 5%);
+  transition: 0.5s all ease-in-out;
+  
+}
+.imk2:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  
+}
+.carousel {
+  height: fit-content;
+  background: rgb(245, 243, 245);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: #888;
+  
+}
+
+.carousel-cell {
+  width: 33%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+ 
+}
+.cart{
+  width: 50%;
+}
+.img-2{
+  width: 50%;
+}
+.carousel-cell image{
+ 
+  margin-left: 100px;
+}
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart h3{
+  background-color: coral;
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+}
+
+      /* form enquiry */
+
+textarea{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5%;
+    background-color: rgba(68, 65, 65, 0.137);
+    font-weight: bold;
+    padding: 0px;
+    
+}
+.form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+} 
+form{
+    border: 1px solid rgb(192, 191, 103);
+    border-radius: 30px;
+    box-shadow: #888;
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(163, 152, 152);
+    
+   
+}
+form input{
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  
+    
+}
+.box{
+ width: 200px;
+ margin-left: 70px;
+
+}
+.box1{
+    width: 200px;
+    margin-left: 30px;
+}
+.box2{
+    width: 200px;
+    margin-left: 40px;
+}
+.button2{
+    background-color: darksalmon;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+       /* founder */
+
+.founder{
+    clip-path: circle(50% at 50% 50%);
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.founder1{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #a32b2b;
+    
+}
+#social{
+    background-color: rgba(31, 146, 136, 0.233);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#social:hover{
+    background-color: darkcyan;
+}
+
+            /* Footer */
+footer{
+    background-color: rgba(24, 23, 23, 0.514);
+    border-top: 1px solid ;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+   
+}
+footer a{
+    text-decoration: none;
+    padding: 15px ;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    
+} 
+footer a:hover{
+    background-color: rgba(86, 97, 97, 0.26);
+    border-radius: 10px;
+}
+ .flex-align-right{
+    margin-right: 0px;
+}
+
+
+/* Login form */
+
+  /* Full-width input fields */
+  .input[type=text], .input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  .button {
+    background-color:coral;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #9c849c;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
+  /* Contact Us pages design */
+  .contact-details{
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: rgb(71, 68, 71);
+    margin: 20px 60px;
+    height: 550px;
+    overflow: auto;
+  }
+  #section30{
+    width: 30%;
+    background-color: #888;
+    padding: 20px;
+    font-size: 20px;
+    overflow: auto;
+    text-align: center;
+  }
+  #address ,#email,#phone,#websites{
+    display: flex;
+    margin: 40px 0px;
+    margin-left: 20px;
+  }
+  #address p{
+    padding-left: 20px;
+  }
+  #email p {
+    padding-left: 20px;
+  }
+  #phone p{
+    padding-left: 20px;
+  }
+  #websites p{
+    padding-left: 20px;
+  }
+  #section70{
+    width: 70%;
+    background-color: #3eafaa;
+  }
+  #section70 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  #name-email{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold; 
+  }
+  #name-email input{
+    padding: 10px 0px;
+    width: 330px;
+    border: none;
+    margin-top: 5px;
+  }
+  #fullname{
+   display: flex;
+   flex-direction: column;
+  }
+  #Email-address{
+    display: flex;
+   flex-direction: column;
+   margin-left: 70px;
+   
+  }
+  #subject{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #subject input{
+    padding: 10px 0px;
+    border: none;
+    margin-top: 5px;
+  }
+  #message{
+    display: flex;
+   flex-direction: column;
+   font-size: 18px;
+   font-weight: bold;
+   
+
+  }
+  #message label{
+     margin-bottom: 10px;
+     margin-left: 50px;
+  }
+  #message textarea{
+   margin-left: 50px;
+   margin-right: 50px;
+   border: none;
+   border-radius: 0px;
+   background-color: white;
+  }
+  #send-message{
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #send-message button{
+    background-color: coral;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  
+  /* all mobile phone responsive design */ 
+
+  #sticky ul #mobile-cross ,#mobile-bar {
+    display: none;
+  }
+  @media screen and (max-width: 500px) {
+  html{
+    margin: 0%;
+  }
+  .header{
+    width: 100%;
+  }
+  .header img{
+    width: 80px;
+    margin-left: 10px;
+  }
+  #gif{
+    font-size: 10px;
+    float: none;
+    text-align: justify;
+    
+  }
+  #gif h1{
+    margin-left: 140px;
+    padding-top: 20px;
+  }
+  #color-switcher{
+    margin: 0px;
+    padding: 0px;
+  }
+  #sticky{
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+    height: 100vh;
+    width: 280px;
+    padding: 0px;
+  }
+  nav ul{
+    text-align: center;
+    padding: 0px;
+  }
+  ul li{
+    display: block;
+    padding: 15px 0px;
+    border-bottom: 1px solid coral;
+  }
+  #mobile-cross{
+    text-align: right;
+  }
+  .fa-regular{
+    font-size: 30px;
+  }
+  #sticky{
+    left: -280px;
+    transition: all 0.5s ease;
+  }
+  #mobile-bar{
+    background-color: coral;
+    color: white;
+    font-size: 28px;
+    padding: 18px;
+  }
+  #sticky ul #mobile-cross ,#mobile-bar {
+    display: block;
+  }
+  #login{
+    float: none;
+    margin-right: 0px;
+    margin-top: 100px;
+    font-size: 25px;padding: 20px 30px;
+  }
+  /* .sticky{
+      display: none;
+  } */
+ .carousel-cell{
+  width: 100%;
+ }
+ .form{
+  width: 100%;
+ }
+  
+ form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  form input[type=text]{
+     width: 90%;
+    margin-top: 10px;
+  }
+  .box{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .box1{
+    width: 90%;
+   margin-left: 0px;
+   margin-right: 0px;
+  }
+  .box2{
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  textarea{
+    width: 90%;
+    margin: 20px;
+  }
+  footer{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      flex-direction: column;
+      padding: 0px;
+  }
+  /* contact us */
+  .contact-details{
+    display: block;
+    border: 0px;
+    height: fit-content;
+  }
+  #section30{
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: #888;
+  }
+  #section30 p{
+    margin-top: 5px;
+    padding: 0px;
+  }
+  #address, #email, #phone, #websites {
+    display: block;
+    margin: 20px 0px;
+    margin-left: 0px;
+  }
+  #section70{
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    overflow: auto;
+    margin-top: 20px;
+    box-shadow: #3eafaa;
+  }
+  #name-email{
+    display: block;
+    margin-left: 0px;
+   
+  }
+  #name-email input{
+   margin-left: 15px;
+    width: 90%;
+  }
+  #Email-address{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  #subject{
+   margin-left: 0px;
+   margin-right: 0px;
+  }
+  #subject input{
+    width: 90%;
+    margin-left: 15px;
+  }
+  #message label{
+    margin-left: 0px;
+  }
+  #message textarea{
+    margin-left: 15px;
+  }
+  #send-message{
+    margin-left: 0px;
+   margin-bottom: 30px;
+  }
+    
+}
+/* ipad pro */
+@media  screen and (max-width: 1024px) {
+  #gif {
+    margin-left: 200px;
+  
+}
+  
+}

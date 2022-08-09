@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c1846cfb1f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="flickity.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Radhe kitchen</title>
+        <style>
+            div h2 span{
+                background-color: rgba(245, 245, 31, 0.404);
+                 padding: 10px 10px;
+                 border-radius: 20px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="header">
+        <div class="block-inline"> <img src="IMAGE/Logo.png" alt=""></div>
+       
+        <div class="block-inline" id="gif">
+           <h1> Radhe Kitchen</h1>
+        </div>
+        <div  id="color-switcher">
+            <span class="btn" id="image" onclick="ChangeBg('#ffffff')"></span>
+            <span class="btn" id="Dark" onclick="ChangeBg('#8C8C8C')"></span>
+            <span class="btn" id="white" onclick="ChangeBg('#90CFC0')"></span>
+        </div>
+    </div>
+           <!--      Navigation     -->
+    <nav class="sticky" id="sticky">
+        <ul>
+          <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-regular fa-circle-xmark"></i></a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="#" onclick="Message()">Birthday Cake</a></li>
+            <li><a href="#" onclick="Message()">Pastries</a></li>
+            <li><a href="#" onclick="Message()">Ice Cream</a></li>
+            <li><a href="contactUs.html" >Contact Us</a></li>
+            <li><a href="aboutUs.html" >About</a></li>
+           
+             <button id="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"> Login</button>
+        
+        </ul>
+          <!--   Login form           -->
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="IMAGE/img_avatar2.jpg" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input class="input" type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input class="input" type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button class="button" type="submit">Login</button>
+                <label>
+                  <input class="input" type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>     
+    </nav>
+    <!-- mobile button-->
+    <div id="mobile-bar" onclick="openMenu()">
+      <i class="fa-solid fa-bars"></i> &nbsp; Menu
+    </div>
+
+    <br>
+    <br>
+<div>
+    <h2><span>Contact us</span></h2>
+    <div class="contact-details">
+        <div id="section30">
+            <h1>Let's get in touch</h1>
+            <p id="paragragh">We're open for any suggestion or just to have a chat.</p>
+            <div id="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Address: &nbsp; 198 West 21th Street,<br> &nbsp; &nbsp; &nbsp; &nbsp; Suite 721 New York <br> NY 10016</p>  
+            </div>
+            <div id="phone">
+                <i class="fa-solid fa-phone"></i>
+                <p>Phone: &nbsp; + 1235 2355 98</p>
+            </div>
+            <div id="email">
+                <i class="fa-regular fa-paper-plane"></i>
+                <p>Email: &nbsp; info@yoursite.com</p>
+            </div>
+            <div id="websites">
+                <i class="fa-brands fa-firefox"></i>
+                <p>Website: &nbsp; www.yoursite.com</p>
+            </div>
+
+        </div>
+        <div id="section70">
+            <h1>Get in touch</h1>
+            <div id="name-email">
+                <div id="fullname">
+                    <label for=""> FULL NAME </label>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div id="Email-address">
+                    <label for="">EMAIL</label>
+                    <input type="text" placeholder="Email Address">
+                </div>
+            </div>
+            <div id="subject">
+                <label for="">SUBJECT</label>
+                <input type="text" placeholder="Subject">
+            </div>
+            <div id="message">
+                <label for="">MESSAGE</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div id="send-message">
+                <button>Send Message</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+    <footer>
+        <a href="#">FAQ</a> 
+        <a href="contactUs.html">Contact Us</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy;2022 | Radhe kitchen</a>
+     </footer>
+     <script src="flickity.pkgd.min.js"></script>
+     <script src="nav.js"></script>
+</body>
+</html>
