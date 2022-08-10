@@ -243,6 +243,10 @@ form input{
     font-weight: bold;
     
 }
+#success{
+  color: #ac1616;
+  text-align: center;
+}
 
        /* founder */
 
