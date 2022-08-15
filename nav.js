@@ -5,7 +5,9 @@ function Message(){
   alert("This Website is under development.")
 }
 // Get the modal
+
 var modal = document.getElementById('id01');
+var modal = document.getElementById('id02');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -27,8 +29,9 @@ function myFunction() {
 }
 
 function openMenu(){
-document.getElementById("sticky").style.left ="0px"
+document.getElementById("sticky").style.left ="0px";
 }
 function closeMenu(){
- document.getElementById("sticky").style.left = "-280px"
+ document.getElementById("sticky").style.left = "-280px";
+
 }

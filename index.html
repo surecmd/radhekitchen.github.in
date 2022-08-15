@@ -17,9 +17,9 @@
            <h1> Radhe Kitchen</h1>
         </div>
         <div  id="color-switcher">
-            <span class="btn" id="image" onclick="ChangeBg('#ffffff')"></span>
-            <span class="btn" id="Dark" onclick="ChangeBg('#8C8C8C')"></span>
-            <span class="btn" id="white" onclick="ChangeBg('#90CFC0')"></span>
+            <span class="btn" id="image" title="change background" onclick="ChangeBg('#ffffff')"></span>
+            <span class="btn" id="Dark" title="change background" onclick="ChangeBg('#242429')"></span>
+            <span class="btn" id="white" title="change background" onclick="ChangeBg('#90CFC0')"></span>
         </div>
     </div>
            <!--      Navigation     -->
@@ -54,13 +54,16 @@
                   
                 <button class="button" type="submit">Login</button>
                 <label>
-                  <input class="input" type="checkbox" checked="checked" name="remember"> Remember me
+                  <input id="checkbox" type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
               </div>
           
-              <div class="container" style="background-color:#f1f1f1">
+              <div class="container" style="background-color:#9c849c">
                 <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+              <div class="sinup_container" id="id02" >
+                <span id="sinup"><a href="sinupform.html">New to Radhe Kitchen? Create an account</a></span>
               </div>
             </form>
           </div>     
@@ -195,7 +198,7 @@
     </section>
 
     <div class="form">
-        <form  method="post" name="submit-to-google-sheet">
+        <form  id="form" method="post" name="submit-to-google-sheet">
             <h1>Enquiry Details</h1>
             <label for="">First Name:- </label> 
             <input class="box" type="text" placeholder="First Name" name="firstName" required> <br>
